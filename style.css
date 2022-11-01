@@ -1,0 +1,492 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+.headings{
+    text-align: center;
+    background-image: url('images/Margazhi\ \(8\)\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 88%; 
+    
+}
+.home{
+    background: #781F19;
+    height: 100vh;
+}
+
+.iitm{
+    margin-bottom: -340px;
+    margin-top: -20px;
+}  
+.dates{
+   margin-top: 100px;
+}
+.name{
+    width: 62%;
+    height: 100vh;
+    margin-bottom: -360px;
+    margin-top: -5px;
+    z-index: 10;   
+    
+  
+}
+.slides{
+    margin-top: -5%;
+    display: flex;
+    overflow: hidden;
+    margin-left: -200px;
+    animation: slider 5s infinite;
+}
+.slide{
+    display: block;
+    margin-left: 1%;    
+     }
+
+     @keyframes slider {
+        0% {margin-left: 0}
+        
+        50%{margin-left: -200px}
+        
+        100%{margin-left:0}
+      
+    }
+
+.ellipse {
+    width: 100%;
+    height: 200px;
+    border-radius: 100%;
+    background: #781F19;
+    position: absolute;
+    margin-top: -100px;
+  }
+
+  .ellipse1{
+    background: linear-gradient(0deg, rgba(120,31,25,1) 50%, rgba(120,31,25,0) 50%);
+   
+    text-align: center;
+  }
+  .ellipse2{
+    background: linear-gradient(180deg, rgba(120,31,25,1) 50%, rgba(120,31,25,0) 50%);
+    text-align: center;
+    
+  }
+  .register{
+    background-color: #E3D799;
+    color: #183E4D;
+    margin-top: 30px;
+    width: 325px;
+    height: 38px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: larger;
+  }
+
+  @media (max-width: 600px) {
+
+       .name{
+        width: 90%;
+        height: 90%;
+        margin-bottom: -30%;
+       }
+       .iitm{
+        margin-top: 10%;
+        margin-bottom: -40%;
+        width: 100%;
+        height: 100%;
+       }
+       .dates{
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+       }
+       .slide{
+         width: 200px;
+         height: 200px;
+       }
+       .ellipse{
+         height: 100px;
+         margin-top: -49px;
+       }
+       .ellipse1{
+           margin-top: -51px;
+       }
+       
+  }
+
+  /** */
+
+
+.about{
+    display: flex;
+    position: relative;
+}
+   #about-title{
+    display: none;
+   }
+
+  .intro{
+    width: 720px;
+    height: 971px;
+    border: 20px solid #781F19;
+    background: #183E4D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url('images/Rangoli\ Main\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+  }
+  .intro{
+    font-size: 50px;
+    color:#E3D799;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+
+  }
+  .intro span{
+    position: absolute;
+    top:43%;
+    left:27%;
+  }
+
+  .desc{
+    width: 720px;
+    height: 971px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+  }
+
+.para{
+    width: 523px;
+    height: 338px;
+    margin: auto;
+}
+.para p{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    color: #183E4D;
+    font-family: sans-serif;
+}
+.trailer{
+    width: 517px;
+    height: 365px;
+    margin: auto;
+    
+}
+   
+@media (max-width: 600px) {
+   
+      .intro{
+        display: none;
+      }
+      #about-title{
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+        margin-top: 0%; 
+        color: #781F19;       
+      }
+      .desc{
+        background-color: #E3D799;
+        width: 100%;
+      }
+      .para p{
+        font-weight: 700;
+        font-size: 20px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .trailer{
+        width: 70%;
+        height: 20%;
+    }
+            
+
+
+
+}
+
+
+
+
+
+
+.events{
+    display: flex;
+    height: 971px;
+    position: relative;
+}
+#event-rangoli{
+    display: none;
+}
+
+.listofevents{
+    width: 720px;
+    height: 971px;
+    text-align: center;
+    
+}
+.groups{
+    margin-top: 150px;
+    margin-left: 50px;
+}  
+    #group1{
+        display: flex;
+    }
+    #group2{
+        display: flex;
+    }
+    #group3{
+        display: flex;
+    }
+ 
+   
+
+.item{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 5px solid #000000;
+}
+
+   #hackathons{
+    width: 288px;
+    background-color: #781F19;
+   }
+   #workshops{
+    width: 253px;
+    background-color: #E3D799;
+   }
+   #sports{
+    width: 223px;
+    background-color: #E3D799;
+
+   }
+   #professional{
+    width: 319px;
+    background-color: #781F19;
+
+   }
+   #esports{
+    width: 288px;
+    background-color: #781F19; 
+
+   }
+   #creatives{
+    width: 253px;
+    background-color: #E3D799;
+
+   }
+   #cultural{
+    width: 554px;
+    display: block;
+    background-color: #781F19;
+   }
+  
+.eventdecor{
+    width: 720px;
+    height: 971px;
+    background: #781F19;
+    border: 20px solid #E3D799;
+    background-image: url('images/Rangoli\ Main\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+.eventdecor{
+    font-size: 50px;
+    color:#E3D799;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+
+}
+.eventdecor span{
+    position: absolute;
+    top:47%;
+    left:36%;
+  }
+
+  #event-title{
+    display: none;
+  }
+
+  @media (max-width: 600px){
+
+    #event-rangoli{
+        display: block;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: 19%;
+        top: 20px;   
+             
+    }
+
+    .groups{
+        margin-top: 60%;
+    }
+
+    .eventdecor{
+        display: none;
+    }
+    .item{
+        font-size: 20px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border: 4px solid #000000;
+
+    }
+    #event-title{
+         display: block;
+         font-family: sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+        margin-top: 110px;
+        margin-left: 30%;
+        color: #E3D799;
+        z-index: 1;
+        position: absolute;
+    }
+    .listofevents{
+        background-color: #781F19;
+    }
+
+
+    #hackathons{
+        width: 30%;
+        background-color: aliceblue;
+        color: #781F19;
+       }
+       #workshops{
+        width: 43%;
+        background-color: #E3D799;
+        color:aliceblue;
+       }
+       #sports{
+        width: 43%;
+        background-color: #E3D799;
+        color:aliceblue;
+    
+       }
+       #professional{
+        width: 30%;
+        background-color: aliceblue;
+        color: #781F19;
+    
+       }
+       #esports{
+        width: 30%;
+        background-color: aliceblue;
+        color: #781F19;
+    
+       }
+       #creatives{
+        width: 43%;
+        background-color: #E3D799;
+        color:aliceblue;
+    
+       }
+       #cultural{
+        width: 80%;
+       display:  block;
+       background-color: aliceblue;
+        color: #781F19;
+    
+       }
+
+  }
+
+
+
+
+  footer{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 130px;
+    padding-right: 123px;
+    background-color:#183E4D;
+    margin-top: 40px;
+  }
+ .socials{
+    width: 414px;
+    height:  34px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 102px;
+    margin-top: 70px;
+    border: 1px solid #E3D799;
+    border-style: solid none none none;
+    
+ }
+ .socials a{
+    text-decoration: none;
+    color: #E3D799;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+ }
+
+  #rights{
+    margin-left: 102px;
+    margin-top: 70px;
+    color: #E3D799;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid #E3D799;
+    border-style: solid none none none;
+  }
+
+  @media (max-width: 600px){
+      footer{
+          display: inline-block;
+          padding: 5% 0% 5% 5%;
+          margin-top: 0px;
+          width: 100%;
+      }
+      .socials{
+        width: auto;
+        margin-top: 0%;
+        height: auto;
+        border-style: none none solid none;
+        justify-content: space-around;
+      }
+      .socials a{
+         margin-bottom: 10px;
+         font-size: 17px;
+      }
+      .logo{
+        display: none;
+      }
+      #rights{
+        border-style: none;
+        margin-left: 50px;
+        font-size: 15px
+
+      }
+
+  }
